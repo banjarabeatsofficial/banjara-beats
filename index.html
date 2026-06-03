@@ -3,21 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banjara Beats</title>
 
-<title>Banjara Beats - Pro Music Hub</title>
-
-<meta name="description" content="Latest Banjara Songs, Lyrics, Status & Music Videos">
-<meta name="keywords" content="Banjara Songs, Music, Lyrics, Status">
-
-<link rel="stylesheet" href="css/style.css">
-<script defer src="js/script.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
   <div class="logo">🎵 Banjara Beats</div>
-  <input type="text" id="search" placeholder="Search songs...">
 </header>
 
 <!-- HERO -->
@@ -26,23 +21,51 @@
   <p>Songs | Lyrics | Status | Culture</p>
 </section>
 
-<!-- CATEGORY -->
-<section class="section">
-  <button onclick="filterCategory('all')">All</button>
-  <button onclick="filterCategory('love')">Love</button>
-  <button onclick="filterCategory('dj')">DJ</button>
-  <button onclick="filterCategory('sad')">Sad</button>
+<!-- CATEGORIES -->
+<section class="categories">
+  <button>All</button>
+  <button>Love</button>
+  <button>DJ</button>
+  <button>Sad</button>
 </section>
 
-<!-- SONG LIST -->
-<section class="section">
-  <div id="songList" class="grid"></div>
+<!-- SONG GRID -->
+<section class="grid">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>Phupir Chori</h3>
+    <p>Singer: Suhasini</p>
+    <button>Play</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>Love Failure</h3>
+    <p>Singer: Mohan</p>
+    <button>Play</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>DJ Banjara</h3>
+    <p>Remix Song</p>
+    <button>Play</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>Sad Love</h3>
+    <p>Emotion Song</p>
+    <button>Play</button>
+  </div>
+
 </section>
 
-<!-- VIDEO -->
-<section class="section">
-  <iframe id="videoPlayer" allowfullscreen></iframe>
-</section>
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Banjara Beats | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
