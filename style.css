@@ -146,3 +146,18 @@ nav a:hover {
   color: white;
   font-size: 16px;
 }
+.hero-banner {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.hero-banner h2 {
+  color: #ff4757;
+  margin-bottom: 10px;
+}
+
+.hero-banner p {
+  color: #aaa;
+}
