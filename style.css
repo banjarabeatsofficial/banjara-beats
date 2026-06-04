@@ -102,3 +102,18 @@ footer {
   margin-top: 20px;
   color: #aaa;
 }
+.about {
+  padding: 30px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #ff4757;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+  color: #ccc;
+}
