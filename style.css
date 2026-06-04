@@ -117,3 +117,16 @@ footer {
   line-height: 1.7;
   color: #ccc;
 }
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff4757;
+}
