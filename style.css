@@ -126,7 +126,18 @@ nav a {
   color: white;
   text-decoration: none;
 }
+.search-box{
+  text-align:center;
+  margin:20px;
+}
 
+.search-box input{
+  width:80%;
+  max-width:500px;
+  padding:12px;
+  border-radius:25px;
+  border:none;
+}
 nav a:hover {
   color: #ff4757;
 }
