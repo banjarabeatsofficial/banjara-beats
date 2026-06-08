@@ -84,3 +84,20 @@ document.getElementById("search").addEventListener("input", function () {
 
 // INIT
 loadSongs(songs);
+const searchInput = document.querySelector(".search-box input");
+
+searchInput.addEventListener("keyup", function () {
+  let filter = searchInput.value.toLowerCase();
+
+  let cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+
+    if (text.includes(filter)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+});
